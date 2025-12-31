@@ -1,58 +1,58 @@
 // Pluribus
-import plur1busLarge from "../assets/Gallery/plur1bus/large.webp";
-import plur1busMedium from "../assets/Gallery/plur1bus/medium.webp";
+import plur1busDesktop from "../assets/Gallery/plur1bus/desktop.webp";
+import plur1busLaptop from "../assets/Gallery/plur1bus/laptop.webp";
 import plur1busMobile from "../assets/Gallery/plur1bus/mobile.webp";
-import plur1busMobileCaption from "../assets/Gallery/plur1bus/mobile_caption.png";
+import plur1busTitle from "../assets/Gallery/plur1bus/title.webp";
 
-// Palm Royale
-import palmRoyaleLarge from "../assets/Gallery/palm_royale/large.webp";
-import palmRoyaleMedium from "../assets/Gallery/palm_royale/medium.webp";
-import palmRoyaleMobile from "../assets/Gallery/palm_royale/mobile.webp";
-import palmRoyaleMobileCaption from "../assets/Gallery/palm_royale/mobile_caption.png";
-
-// Down Cemetery Road
-import downCemeteryRoadLarge from "../assets/Gallery/down_cemetery_road/large.webp";
-import downCemeteryRoadMedium from "../assets/Gallery/down_cemetery_road/medium.webp";
+// Down Cementery Road
+import downCemeteryRoadDesktop from "../assets/Gallery/down_cemetery_road/desktop.webp";
+import downCemeteryRoadLaptop from "../assets/Gallery/down_cemetery_road/laptop.webp";
 import downCemeteryRoadMobile from "../assets/Gallery/down_cemetery_road/mobile.webp";
-import downCemeteryRoadMobileCaption from "../assets/Gallery/down_cemetery_road/mobile_caption.png";
+import downCemeteryRoadTitle from "../assets/Gallery/down_cemetery_road/title.webp";
+
+// F1 Movie
+import f1MovieDesktop from "../assets/Gallery/f1_movie/desktop.webp";
+import f1MovieLarge from "../assets/Gallery/f1_movie/laptop.webp";
+import f1MovieMobile from "../assets/Gallery/f1_movie/mobile.webp";
+import f1MovieTitle from "../assets/Gallery/f1_movie/title.webp";
 
 // The Morning Show
-import theMorningShowLarge from "../assets/Gallery/the_morning_show/large.webp";
-import theMorningShowMedium from "../assets/Gallery/the_morning_show/medium.webp";
+import theMorningShowDesktop from "../assets/Gallery/the_morning_show/desktop.webp";
+import theMorningShowLaptop from "../assets/Gallery/the_morning_show/laptop.webp";
 import theMorningShowMobile from "../assets/Gallery/the_morning_show/mobile.webp";
-import theMorningShowMobileTitle from "../assets/Gallery/the_morning_show/mobile_title.png";
-
-// MLS
-import mlsLarge from "../assets/Gallery/mls/large.webp";
-import mlsMedium from "../assets/Gallery/mls/medium.webp";
-import mlsMobile from "../assets/Gallery/mls/mobile.webp";
-import mlsMobileCaption from "../assets/Gallery/mls/mobile_caption.png";
-
-// Charlie Brown
-import charlieBrownLarge from "../assets/Gallery/charlie_brown/large.webp";
-import charlieBrownMedium from "../assets/Gallery/charlie_brown/medium.webp";
-import charlieBrownMobile from "../assets/Gallery/charlie_brown/mobile.webp";
-import charlieBrownMobileCaption from "../assets/Gallery/charlie_brown/mobile_caption.png";
+import theMorningShowTitle from "../assets/Gallery/the_morning_show/title.webp";
 
 // Slow Horses
-import slowHorsesLarge from "../assets/Gallery/slow_horses/large.webp";
-import slowHorsesMedium from "../assets/Gallery/slow_horses/medium.webp";
+import slowHorsesDesktop from "../assets/Gallery/slow_horses/desktop.webp";
+import slowHorsesLaptop from "../assets/Gallery/slow_horses/laptop.webp";
 import slowHorsesMobile from "../assets/Gallery/slow_horses/mobile.webp";
-import slowHorsesMobileCaption from "../assets/Gallery/slow_horses/mobile_caption.png";
+import slowHorsesTitle from "../assets/Gallery/slow_horses/title.webp";
 
-// The Last Frontier
-import theLastFrontierLarge from "../assets/Gallery/the_last_frontier/large.webp";
-import theLastFrontierMedium from "../assets/Gallery/the_last_frontier/medium.webp";
-import theLastFrontierMobile from "../assets/Gallery/the_last_frontier/mobile.webp";
-import theLastFrontierMobileCaption from "../assets/Gallery/the_last_frontier/mobile_caption.png";
+// Family Plan
+import familyPlanDesktop from "../assets/Gallery/family_plan/desktop.webp";
+import familyPlanLaptop from "../assets/Gallery/family_plan/laptop.webp";
+import familyPlanMobile from "../assets/Gallery/family_plan/mobile.webp";
+import familyPlanTitle from "../assets/Gallery/family_plan/title.webp";
 
-// Loot
-import lootLarge from "../assets/Gallery/loot/large.webp";
-import lootMedium from "../assets/Gallery/loot/medium.webp";
-import lootMobile from "../assets/Gallery/loot/mobile.webp";
-import lootMobileCaption from "../assets/Gallery/loot/mobile_caption.png";
+// Hijack
+import hijackDesktop from "../assets/Gallery/hijack/desktop.webp";
+import hijackLaptop from "../assets/Gallery/hijack/laptop.webp";
+import hijackMobile from "../assets/Gallery/hijack/mobile.webp";
+import hijackTitle from "../assets/Gallery/hijack/title.webp";
 
-export const shows = [
+// Shrinking
+import shrinkingDesktop from "../assets/Gallery/shrinking/desktop.webp";
+import shrinkingLaptop from "../assets/Gallery/shrinking/laptop.webp";
+import shrinkingMobile from "../assets/Gallery/shrinking/mobile.webp";
+import shrinkingTitle from "../assets/Gallery/shrinking/title.webp";
+
+// Ted Lasso
+import tedLassoDesktop from "../assets/Gallery/ted_lasso/desktop.webp";
+import tedLassoLaptop from "../assets/Gallery/ted_lasso/laptop.webp";
+import tedLassoMobile from "../assets/Gallery/ted_lasso/mobile.webp";
+import tedLassoTitle from "../assets/Gallery/ted_lasso/title.webp";
+
+export const showsData = [
   {
     title: "plur1bus",
     description: "Happiness is a state of mind.",
@@ -60,21 +60,9 @@ export const shows = [
     link: "Stream now",
     images: {
       mobile: plur1busMobile,
-      mobileCaption: plur1busMobileCaption,
-      desktopMedium: plur1busMedium,
-      desktopLarge: plur1busLarge,
-    },
-  },
-  {
-    title: "palm_royale",
-    description: "New season.",
-    genre: "Comedy",
-    link: "Stream now",
-    images: {
-      mobile: palmRoyaleMobile,
-      mobileCaption: palmRoyaleMobileCaption,
-      desktopMedium: palmRoyaleMedium,
-      desktopLarge: palmRoyaleLarge,
+      title: plur1busTitle,
+      laptop: plur1busLaptop,
+      desktop: plur1busDesktop,
     },
   },
   {
@@ -84,9 +72,9 @@ export const shows = [
     link: "Stream now",
     images: {
       mobile: downCemeteryRoadMobile,
-      mobileCaption: downCemeteryRoadMobileCaption,
-      desktopMedium: downCemeteryRoadMedium,
-      desktopLarge: downCemeteryRoadLarge,
+      title: downCemeteryRoadTitle,
+      laptop: downCemeteryRoadLaptop,
+      desktop: downCemeteryRoadDesktop,
     },
   },
   {
@@ -96,33 +84,9 @@ export const shows = [
     link: "Stream now",
     images: {
       mobile: theMorningShowMobile,
-      mobileCaption: theMorningShowMobileTitle,
-      desktopMedium: theMorningShowMedium,
-      desktopLarge: theMorningShowLarge,
-    },
-  },
-  {
-    title: "mls",
-    description: "Watch every club, every match, live-all season long.",
-    genre: "",
-    link: "See the schedule",
-    images: {
-      mobile: mlsMobile,
-      mobileCaption: mlsMobileCaption,
-      desktopMedium: mlsMedium,
-      desktopLarge: mlsLarge,
-    },
-  },
-  {
-    title: "charlie_brown",
-    description: "Happiness is togetherness.",
-    genre: "Holiday",
-    link: "Stream now",
-    images: {
-      mobile: charlieBrownMobile,
-      mobileCaption: charlieBrownMobileCaption,
-      desktopMedium: charlieBrownMedium,
-      desktopLarge: charlieBrownLarge,
+      title: theMorningShowTitle,
+      laptop: theMorningShowLaptop,
+      desktop: theMorningShowDesktop,
     },
   },
   {
@@ -132,33 +96,69 @@ export const shows = [
     link: "Stream now",
     images: {
       mobile: slowHorsesMobile,
-      mobileCaption: slowHorsesMobileCaption,
-      desktopMedium: slowHorsesMedium,
-      desktopLarge: slowHorsesLarge,
+      title: slowHorsesTitle,
+      laptop: slowHorsesLaptop,
+      desktop: slowHorsesDesktop,
     },
   },
   {
-    title: "the_last_frontier",
-    description: "600,000 square miles. Nowhere to hide.",
+    title: "f1_the_movie",
+    description: "Now streaming on Apple TV.",
     genre: "Action",
     link: "Stream now",
     images: {
-      mobile: theLastFrontierMobile,
-      mobileCaption: theLastFrontierMobileCaption,
-      desktopMedium: theLastFrontierMedium,
-      desktopLarge: theLastFrontierLarge,
+      mobile: f1MovieMobile,
+      title: f1MovieTitle,
+      desktop: f1MovieDesktop,
+      large: f1MovieLarge,
     },
   },
   {
-    title: "loot",
-    description: "She's putting wealth to work.",
+    title: "family_plan",
+    description: "Same family. New plan.",
     genre: "Comedy",
     link: "Stream now",
     images: {
-      mobile: lootMobile,
-      mobileCaption: lootMobileCaption,
-      desktopMedium: lootMedium,
-      desktopLarge: lootLarge,
+      mobile: familyPlanMobile,
+      title: familyPlanTitle,
+      laptop: familyPlanLaptop,
+      desktop: familyPlanDesktop,
     },
   },
+  {
+    title: "hijack",
+    description: "Let them think they're in control.",
+    genre: "Thriller",
+    link: "Stream now",
+    images: {
+      mobile: hijackMobile,
+      title: hijackTitle,
+      laptop: hijackLaptop,
+      desktop: hijackDesktop,
+    },
+  },
+  {
+    title: "shrinking",
+    description: "Getting it thogether. Together.",
+    genre: "Comedy",
+    link: "Stream now",
+    images: {
+      mobile: shrinkingMobile,
+      title: shrinkingTitle,
+      laptop: shrinkingLaptop,
+      desktop: shrinkingDesktop,
+    },
+  },
+  {
+    title: "ted_lasso",
+    description: "Kindness makes a comeback.",
+    genre: "Comedy",
+    link: "Stream now",
+    images: {
+      mobile: tedLassoMobile,
+      title: tedLassoTitle,
+      laptop: tedLassoLaptop,
+      desktop: tedLassoDesktop,
+    },
+  }
 ];
